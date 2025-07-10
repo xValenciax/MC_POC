@@ -17,6 +17,8 @@ public class TestClass {
 
     private By emailField = By.id("email");
     private By passField = By.id("password");
+    private By agencyCounterTitle = By.xpath("/html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/h2");
+    private By getAgencyCounterValue = By.xpath("/html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/p");
 
     @Test
     public void navigateToMonecyCollectorAndAssertLandingPageIsLogin(){
@@ -27,7 +29,17 @@ public class TestClass {
     @Test
     public void loginWithValidCredentials(){
         driver.browser().navigateToURL(targetUrl)
-                .and().assertThat().title().contains(testData.getTestData("landingPageTitle"));
+                .and().element().type(emailField, testData.getTestData("superAdminEmail") + Keys.ENTER)
+                .and().element().type(passField, testData.getTestData("superAdminPass") + Keys.ENTER)
+                .and().browser().assertThat().title().contains("Dashboard");
+    }
+
+    @Test
+    public void numberOfAgenciesIsDisplayedCorrectlyInDashboard(){
+        driver.browser().navigateToURL(targetUrl)
+                .and().element().type(emailField, testData.getTestData("superAdminEmail") + Keys.ENTER)
+                .and().element().type(passField, testData.getTestData("superAdminPass") + Keys.ENTER)
+                .and().assertThat(getAgencyCounterValue).text().contains(testData.getTestData("agencyCounterValue"));
     }
 
     @BeforeClass
