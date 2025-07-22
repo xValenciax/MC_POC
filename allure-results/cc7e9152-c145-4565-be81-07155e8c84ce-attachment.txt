@@ -1,0 +1,40 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 3' test cases in the current suite                                        
+                                         Test Method: 'testPackage.TestClass.loginWithValidCredentials'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://money-collector-fe.azurewebsites.net/" @13-07-2025 14:34:07.0456 pm
+[ReportManager] Initial URL: "about:blank" @13-07-2025 14:34:07.0471 pm
+[ReportManager] Navigate to url "https://money-collector-fe.azurewebsites.net/". @13-07-2025 14:34:08.0224 pm
+[ReportManager] Type "Email" @13-07-2025 14:34:11.0622 pm
+[ReportManager] Type "Password" @13-07-2025 14:34:12.0018 pm
+[ReportManager] Assert that the browser title contains "Dashboard". @13-07-2025 14:34:12.0036 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0073 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0198 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0309 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0427 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0543 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0659 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0778 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:12.0893 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0027 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0162 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0277 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0393 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0512 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0626 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0745 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0863 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:13.0976 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:14.0093 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:14.0226 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:14.0343 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:14.0459 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:14.0579 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:14.0693 pm
+[ReportManager] Expected "Dashboard", and actual "Login" @13-07-2025 14:34:14.0826 pm
+[ReportManager] Expected "Dashboard", and actual "Dashboard" @13-07-2025 14:34:14.0970 pm
+[ReportManager] Successfully created attachment 'Screenshot - Assert_14-34-16-124_13072025' @13-07-2025 14:34:16.0124 pm
+[ReportManager] Expected "Dashboard", and actual "Dashboard" @13-07-2025 14:34:16.0124 pm
+[ReportManager] Assertion passed @13-07-2025 14:34:16.0124 pm

@@ -1,0 +1,19 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 3' test cases in the current suite                                        
+                              Test Method: 'testPackage.TestClass.numberOfAgenciesIsDisplayedCorrectlyInDashboard'                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://money-collector-fe.azurewebsites.net/" @13-07-2025 14:34:21.0735 pm
+[ReportManager] Initial URL: "about:blank" @13-07-2025 14:34:21.0749 pm
+[ReportManager] Navigate to url "https://money-collector-fe.azurewebsites.net/". @13-07-2025 14:34:22.0100 pm
+[ReportManager] Type "Email" @13-07-2025 14:34:24.0624 pm
+[ReportManager] Type "Password" @13-07-2025 14:34:24.0782 pm
+[ReportManager] Assert that the element located by "By.xpath: /html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/p" text contains "9,483". @13-07-2025 14:34:24.0797 pm
+[ReportManager] Get  text "By.xpath: /html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/p" @13-07-2025 14:34:26.0400 pm
+[ReportManager] Expected "9,483", and actual "" @13-07-2025 14:34:26.0402 pm
+[ReportManager] Get  text "By.xpath: /html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/p" @13-07-2025 14:34:26.0583 pm
+[ReportManager] Expected "9,483", and actual "9,483" @13-07-2025 14:34:26.0584 pm
+[ReportManager] Successfully created attachment 'Screenshot - Assert_14-34-27-022_13072025' @13-07-2025 14:34:27.0030 pm
+[ReportManager] Expected "9,483", and actual "9,483" @13-07-2025 14:34:27.0030 pm
+[ReportManager] Assertion passed @13-07-2025 14:34:27.0030 pm

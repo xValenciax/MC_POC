@@ -1,0 +1,420 @@
+[INFO ] 2025-07-13 14:34:02.259 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.2.20250530[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:02.342 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-07-13 14:34:02.371 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-07-13 14:34:02.548 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-07-13 14:34:03.419 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-07-13 14:34:03.712 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-07-13 14:34:03.898 [main] Utils - [TestNG] Running:
+  C:\Users\Sheen\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO ] 2025-07-13 14:34:03.993 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:04.034 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-07-13 14:34:04.149 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                       'testPackage.TestClass.beforeClass'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:04.169 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2025-07-13 14:34:04.171 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-07-13 14:34:04.177 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeClass'
+[INFO ] 2025-07-13 14:34:04.192 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'testPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:04.224 [main] ReportManager - Post processing some properties to support platforms-specific restrictions.
+[INFO ] 2025-07-13 14:34:04.244 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-07-13 14:34:04.339 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-07-13 14:34:04.352 [main] ReportManager - Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-port=51840, --start-maximized], extensions: []}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, webSocketUrl: true}
+[INFO ] 2025-07-13 14:34:04.352 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-07-13 14:34:04.357 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-07-13 14:34:04.754 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-07-13 14:34:04.786 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-07-13 14:34:05.146 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-07-13 14:34:05.146 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-07-13 14:34:05.146 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-07-13 14:34:05.146 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-07-13 14:34:05.146 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-07-13 14:34:05.146 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.146 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.146 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.146 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.146 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.7)[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.146 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.146 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.146 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-07-13 14:34:05.146 [] headers - >> Accept: */*
+[DEBUG] 2025-07-13 14:34:05.146 [] headers - >> Host: api.github.com
+[DEBUG] 2025-07-13 14:34:05.146 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-07-13 14:34:05.146 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.7)
+[DEBUG] 2025-07-13 14:34:05.146 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-07-13 14:34:05.407 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Date: Sun, 13 Jul 2025 11:34:03 GMT[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "ETag: W/"bca9684a4e4cf973c98131ee71f789819a123d18efbdcc7b384d9e53a89c15a9"[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Last-Modified: Sat, 12 Jul 2025 19:23:08 GMT[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-RateLimit-Remaining: 58[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-RateLimit-Reset: 1752407961[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-RateLimit-Used: 2[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "Content-Length: 1594[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "X-GitHub-Request-Id: CA83:FB149:7E95A03:82A6FA7:687399AB[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-07-13 14:34:05.411 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Date: Sun, 13 Jul 2025 11:34:03 GMT
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << ETag: W/"bca9684a4e4cf973c98131ee71f789819a123d18efbdcc7b384d9e53a89c15a9"
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Last-Modified: Sat, 12 Jul 2025 19:23:08 GMT
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Server: github.com
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-RateLimit-Remaining: 58
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-RateLimit-Reset: 1752407961
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-RateLimit-Used: 2
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << Content-Length: 1594
+[DEBUG] 2025-07-13 14:34:05.411 [] headers - << X-GitHub-Request-Id: CA83:FB149:7E95A03:82A6FA7:687399AB
+[DEBUG] 2025-07-13 14:34:05.437 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]X[0xed]n[0xdb]6[0x14]}[0x15][0xc1]E1 [0x88]h}[0xd8][0x8e]-[0xa0][0xe8][0xda]&][0xfb]#)[0xda]f[0x1b][0xb0][0xb6]0([0x89][0x96][0xe9]H[0xa2]JRN[0xd3][0xa0][0xc0][0x9e]f[0xf]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0xb6]'[0xd9][0xa1]>[0xec]XH[0x93][0xae]V~Da[0x14][0xe9][0xf0][0xea][0xdc]{[0xcf][0xbd][0x97][0xd7][0x83]R[0xa6][0x83]`[0xb0][0xd4][0xba]P[0xc1]pH[0xb]N[0x12][0xae][0x97]eH"[0x91][\r]%+[0x84][0x1a][0xbe]_[0xd2][0x85]~[0xf5]v[0xf8][0xfe][0xd5][0xb3][0x97][0xe7][0xf3][0x93][0xb3][0xdf]^[0x9f][0x9d][0xe0]_)[0xa3][0x8a][0xa9][0xa1][0xe7][0xbb][0xb3][0x99][0xef][0xb8][0xde][0xe0]p@[0x95]bZ[0xcd][0xfb][0xc3][0x1c][0xd6][0x88][0x80].[0x8b]T[0xd0][0xb8][0x3]][0xdf]T?mr[0x3][0xfd]4[0xa7][0x19];Li[0xc8][0xd2]o[0xd8]k[0xa9][0xb3][0xb4][0xb3][0xd3][\r]R[0xee][0xa6]C[0xd3]d8#>[0xf1][0x1c]o[0xec][0x1c]U[0xac][0xf0]x[0x10]lX[0x2]I[0xa5]^[\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "9[0x8][0xae][0x7][0xa9]Hx[0xe][0xf6]kp[0x9b]F[0x9a][0x8b]\}[0x8][0x85][0xfe][0xd4][0xbc]6r[0xa7][0xb3][0xa9]7[0xf5][0xe][0x7][0xb9][0x88][0xd9][0xdc] [\r]N[0x8f]O'o[0xb3][0x99]sv|2zs[0x9e]\[0xbd]9~[0xfd][0xc4]p[0xbf][0xa6][0x9a][0xca].[0xf7][0xd5][0xcd][0x96][0xa0]R1[0x19][0x89]\[0xb3]\W[0xee][0xe5][0xf9][0xd0][0x1d][0xfb][0x93][0xe9][0xd3][0xf5][0x93][0x11][0x10][0x12][0xd9]`T[0xdb][0x18][0xce][0xef][0x8a][\r][0x3][0xa6][0x86][0xbb][0xa6]?[0x1e]?[0x87][0xf1][0x8f][0xc7][0xc7][0xf7][0x92]H[0x8b][0xa2][0xfb]2[0xde]Y[0x88]4[0x15][0x97][0xc0][0xed]~[0xc6]nX[0xde][0xb9][0xf5]p[0x3][0xb2][0x1][0xe4]y[0xb2]? @[0xae][0x87]B/[0x19]8[0xc6][0xa7][0x9b]8I[0xb8][0xba]/[0xda][0xef]6[0xb5][0x2][0xb8][0x6][0x89]J[0xc3][0xb7][0x6]R[0xc1]][0x92]u[0xe3][0xbc][0x93][0x96]w[0x83]6[0x10]0[0xf6]2[0x87][0x9d][0xd7]U[0x16]W[0xd8]e[0xa8]"[0xc9][0x8b]*[0xca][0xf6]!d[0x7][0x8][0xc0]B&4[0xe7]_[0xe9][0xde][0xc0][0x0]R[0xc0][0xab]dg[0x1f][0x3]+[0x0][0x0][0xb1]5B}/[0xa4][0x1a][0xe1]zXH[0xbe][0xa6][0xd1][0x95][0xa1]Q[0xb2][0x88][0xf1]5|[0xb4]?z[0x7][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0xe0][0xfa][0xaa]`H[0xbe][0xe7]B[0xe3][0xf][0xe3][0xe7][0xf9][0x9a][0xb3][0xcb]ys[0xbb]([0xc3][0x94]G[0xc6][0x95]\[0xb3]9[0x8d]3#[0x1f][0xb][0x9a]*[0xf6][0xed][0xa6]B[0xbc];[0x99]_\[0x1e][0xbf]y[0xf1][0x1b];[0x9f][0xa8][0xd1][0x99]cO[0x1c][0x3]M[0x93][0xb9][0xd1]9[0xc0]w[0x4][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "1[0x97]0=[0x87]$d\s[0xb5][0xc4][0x13][0x19][0x5]40o}>[0x96]([0x8][0xcd][0xc6][0x90][0xb7],+5[\r]S[0x0]W[0xa6][0x1c][0xe][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0xc9][0x9a][0xf2][0xb0][0xb9][0x15]IF58[0xa3]xo`[0xb4][0xd1]v[0x8e]l[0xd7];wg[0x81][0xe7][0x5]#[0xff]/lV}[0x9d]Z~[0xe7])?p[0xa6][0xe6][0xa9][0xa6]"[0x4][0x1f]>[0x99]O[0x92]!M[0xbb]Z[0xfd][0xe3]E[0xac]y[0xbf]+[0xd8]_y[0xb1][0x17]l[0xf3]~[0x17]6[0x14][0xf1][0x15][0xbe][0xfe][0xd1]#[0xeb][0xcf]%[0xd5][0xbf]([0xeb][0xc5][0x92][0xe6][0x9][0x8b]?[0xe6][0x7][0xd6][0xf3]2+,[0x84]?A[0xe0][0xea]D2[0xf5]9[\r][0xb6]Kk!Ef[0x8d]<rD&[0x96][0x16][0xf5][0xea][0xc8][0xe2][0xb9][0x5]=[0xb2]2[0x8a]0[0xb7][0x12])[0xca][0xc2][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0xaf][0xac]_cV[0xb0]<[0xa6]P[0xe2][0xaa][0x94][0x98][0xc7][0xda][0xfa]~_[0x19]+[0xca]4[0x1d]z[0x8e][0xeb][0xef][0xd8][0xb4]*s[0xae][0x83][0xea]j[0x87]0[0xa4][0xb2]fL\[0x8f]x[0xc6][0x1a][0xac]|[0xe2][0xf6][0xb5][0xb5][0xb7][0xd9][0x1a][0xf1]HXA3b[0xd2]Yj[0xf3]C[0xd3][0x80]&[0xc8]i{[0x85]Rek[0xa6]t[0x9e][0xb4][0xe6][0x8c]jn[0xc6]dL[0x9c][0xbe][0x8c]q7[0xc6]pA[0xa2]2*[0xb3][0x90][0xc9][0xa0]]TV[0xd4][0xdb][0x1f][0x11][0xaf]a[0x3]+[0xbf]7[0x3][0x9c][0xd9][0xdd][0x6][0xdc]d[0xe0][0xa1]L[0x98][0x1a][0x13]~/b[0xe4][0xaf][0xf5][0xee][0xe4][0xd9][0xf1][0xe9][0x9][0xc9][0xe2][0xc0][0xa2]ql][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "yA[0x11]wyl-[0x84][0xb4][0x8c][0x80]P[0xac]S[0x9e]3[0x4][0x86][0xb0]R[0x1][0xf7]p[0xa5]Jf[0x82][0xf0][0xf5][0xbf][0xff]S9[0xe6][0xcb][0x1f]4ey[0xc4][0xe9][0x97][0x9f][0x88]M[0xcf][0xd9][0x89]M%rj[0xd4][0x91]D[0x8][0xb][0x89][0xf8]h~[0xdb][0x8d][0x9a][0xa0]l[0xdb]U[0x82][0xd8]EZ[0xa2][0xdd][0xaa][0xdd][0xe5] [0x93][0x1c][0x13][0xbb][0xe][0x99][0xf6][0xe6],[0xb7]bj[0x93][0xc9][0xb4][0xa0][0xd1][0x92][0x11]4y[0xd8]61[0xbf]G[0xab][0xa0][0xba][0xda][0x91][0x90][0xac]6[0x4]A3"[0xbe][0xb1][0x4][0xab][0x1e][0x3]w[0xbc]1[0x5]<[0x17][0xa6][0xad]j;[0xf6][0xa6][0xcd][0xac][0xb7]w[0x89];[0xa9][0x89][0xc0][0xaa]G&[0xb6]ak[0x92]xA[0x95]f[0xf2]K[0x96][0x92][0x15][0x8d].[0xe0]1[0x82]`[0xaa][0xbc][0x16]47[0xec][0xf6][0x86][0xbd][0x8a]/[0xa6]-5[0xee][0xac][0xb6][0xcd]#X[0xf5]&0G?[0xea]%[0x95].F+[0xcf][0xe6]Y[0x91]>[0xac][0xb3]&;[0x92]Gu[0x8a][0x1a][0xc7]iN[0x4][0xe5][0x81][0xba][0xa4]I[0xc2][0xa4]-[0xd9][0xe7][0x12]rg[0xaf]i[0xca]A[0x96]0w[0xd0][0xe9]![0xb7][0xd0].[0xb6][0xe6][0x8d]FdZ[0xc7][0x12]V[0xb3][0xbe]Dpd[0xcc]3[0xe9]^[0x8f][[0xd6][0x82][0xa7][0xcc]Zsj[0xc5]R[0xd4][0x15][0xe7]T,i[0x88][0xb][0xaf][0xf2][0xfc][0x16][0x1b]g[0xeb][0x90][0xdb][0x15][0xdf]d[0x10][0x18][0xa8]$[0xbf][0xca][0x9f]V[0xf1][0xbd]:s[0xc6][0x18][0xb7][0xfa]R|[0xaf]S[0xf9][0x14][0x8a]j[0xb0]2[0xd7]6a<[0x7][0xa1][0x88]|u[0x89][0x87][0x9c][0xe9][0x89]c[0xaf][0xe2][0xb8][0x92][0xe][0xc3]A"D[0x92]B[0xd2][0xe4]U[0xa1][0x5][0xd1]<[0xbf][0x8][0xcc]e[0x93][0xb3][0x8d]x[0xf5][0x9a][0xb3][0xde]V2P[0xeb][0x9a]F![0x14]9O[0xa8][0x84]T[0x7][0x97],[0x8c][0xd1][0x4]3[0x9][0x89]G[\r][0x96][0xb5]1[0x13][0xe2][0xd6]9j[0x16][0xbd][0xb1][0xb1]-[0xbb][0xa6]%[0xfa]^[0xfb]a[0x9a][0x8e][0xb6][0xfd][0xf0][0xfb]r[0xc4][0xb6][0xfd][0xb8][0xb5][0xe2][0x17]<[0x12]f[0x84]F{[0xdc]R[0xd0][0x14]|X[0x82]U[0x12][0xee]mU[0xe1]VKvz[0xf][0x93][0x0][0xbd][0x1b][0xb0][0xcd]K[0x18][0x80][0x81][0x9d][0x97][0x19][0xf4][0x1a]I[0x18][0xa5][0x1c][0xc5][0xb6][0xe][0x80][0x19][0x19][0xd5]{[0xcf]z[0xec][0xbb][0xbc]m%[0xbd][0xf5][0xdb];m[0xcf][0x83]|[0xfd][0xb6][0x84][0x99][0x18][0xbc][0xa3][0x98][0xdf]V&L[0x18][0xb4]5[0xbd][0xaf][0xac][0xf0][0xb7][0x8d][0x8f][0xd1][0x88][0x8c]GR([0xb1][0xd0][0x4][0xb3][0x2][0x6]Edf[0x90])[0xac]QB[0xc3][0xa8][0x91][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "TN[0x87]8d%[0x99][[0x8b][0x16]r[0xa6][0xfd][0xdb][0xc6][0x98]f[0x86][0xcb][0x9e]2[0xc7][0xdf]f[0xce]=[0x84][0xed]t?[0xf][0xc2][0xd4][0xae]~4[0xbe][0xab][0xba]@"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "Rw[0x81]*[0xa8]{[0xc2][0xa4]Hv[0xfa]B[0x9c][0xdb][0x91]#[0xe3]9[0xb3][0x98][0xf6][0xc5][0xcc]V[0xdc][\r]3[\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "'[0xa7]9ri[0xf9]y[0xb3][0xc][0xda]{7&[\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0xb4][0x85]M\cer[0xac][0x9f][0xd1][0xce][0xaf][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0xdc][0xcd][0x3][0x80][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "x[0xaf][\n]"
+[DEBUG] 2025-07-13 14:34:05.437 [] wire -  << "[0xee][0xa3]t|[0xcc]1[0xd7][0x9e]![0x9a]^@[0x1d]%[0xf]K[0xb4]([0xca]lu[0xb3][0xdb][0xcf]h[0x8c][0xc1]`[0xc9]8[0xaa][0x7][0x97]J[0xa3][0xd8]5[0xf][0xe3]H[0xea]'Z[0x7]3[0xb]`[0x8f][0x83][0x97][0x18][[0x9b]i[0x1a][\r][0xc2][0xc1]A[0xf0][0xc3]=[0x8]2[0xa9][0xa0][0x92]aTG[0xff]m[0x8e]l[0xc7][0xbe]C[0x8][0xe9][0x1c][0x90]d[0x90][0xbb][0xea][0xd0],[0xc2][0xac][0x83][0x13][0xc][0xff][0xdb]9V[0x87]<9[0x17][0x0][0x0]"
+[DEBUG] 2025-07-13 14:34:05.437 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-07-13 14:34:05.581 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@721018c3
+[DEBUG] 2025-07-13 14:34:05.581 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-07-13 14:34:06.553 [] ReportManager - 
+[1;33m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          ⚠️ You're using an outdated engine version "9.2.20250530" ⚠️                                          
+                                 Kindly upgrade to the latest one "9.3.20250712" to ensure the best experience.                                 
+                           For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2025-07-13 14:34:07.294 [main] ReportManager - Jul 13, 2025 2:34:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-07-13 14:34:07.295 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+[INFO ] 2025-07-13 14:34:07.303 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-07-13 14:34:07.311 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2025-07-13 14:34:07.432 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 3' test cases in the current suite                                        
+                                         Test Method: 'testPackage.TestClass.loginWithValidCredentials'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:07.456 [main] ReportManager - Target URL: "https://money-collector-fe.azurewebsites.net/"
+[INFO ] 2025-07-13 14:34:07.471 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-07-13 14:34:08.224 [main] ReportManager - Navigate to url "https://money-collector-fe.azurewebsites.net/".
+[INFO ] 2025-07-13 14:34:11.622 [main] ReportManager - Type "Email"
+[INFO ] 2025-07-13 14:34:12.018 [main] ReportManager - Type "Password"
+[INFO ] 2025-07-13 14:34:12.036 [main] ReportManager - Assert that the browser title contains "Dashboard".
+[DEBUG] 2025-07-13 14:34:12.073 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:12.198 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:12.309 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:12.427 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:12.543 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:12.659 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:12.778 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:12.893 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.027 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.162 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.277 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.393 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.512 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.626 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.745 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.863 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:13.976 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.093 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.226 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.343 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.459 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.579 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.693 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.826 [main] ReportManager - Expected "Dashboard", and actual "Login"
+[DEBUG] 2025-07-13 14:34:14.970 [main] ReportManager - Expected "Dashboard", and actual "Dashboard"
+[DEBUG] 2025-07-13 14:34:15.378 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:51843<->140.82.121.6:443 closed
+[INFO ] 2025-07-13 14:34:16.124 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_14-34-16-124_13072025'
+[INFO ] 2025-07-13 14:34:16.124 [main] ReportManager - Expected "Dashboard", and actual "Dashboard"
+[INFO ] 2025-07-13 14:34:16.124 [main] ReportManager - Assertion passed
+[INFO ] 2025-07-13 14:34:16.124 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: loginWithValidCredentials'
+[INFO ] 2025-07-13 14:34:16.124 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'testPackage.TestClass.loginWithValidCredentials'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:16.147 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'testPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2025-07-13 14:34:16.258 [JdkHttpClient-2-0] ReportManager - Jul 13, 2025 2:34:16 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+[WARN ] 2025-07-13 14:34:16.260 [JdkHttpClient-2-0] ReportManager - WARNING: Connection reset
+[WARN ] 2025-07-13 14:34:16.262 [JdkHttpClient-2-0] ReportManager - java.net.SocketException: Connection reset
+[WARN ] 2025-07-13 14:34:16.262 [JdkHttpClient-2-0] ReportManager - 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+[WARN ] 2025-07-13 14:34:16.264 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+[WARN ] 2025-07-13 14:34:16.266 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+[WARN ] 2025-07-13 14:34:16.266 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+[WARN ] 2025-07-13 14:34:16.266 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+[WARN ] 2025-07-13 14:34:16.266 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+[WARN ] 2025-07-13 14:34:16.266 [JdkHttpClient-2-0] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+[WARN ] 2025-07-13 14:34:16.266 [JdkHttpClient-2-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+[INFO ] 2025-07-13 14:34:16.388 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2025-07-13 14:34:16.390 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2025-07-13 14:34:16.394 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'testPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:16.394 [main] ReportManager - Post processing some properties to support platforms-specific restrictions.
+[INFO ] 2025-07-13 14:34:16.398 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-07-13 14:34:16.400 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-07-13 14:34:16.402 [main] ReportManager - Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-port=51881, --start-maximized], extensions: []}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, webSocketUrl: true}
+[INFO ] 2025-07-13 14:34:16.402 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-07-13 14:34:16.402 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2025-07-13 14:34:17.827 [main] ReportManager - Jul 13, 2025 2:34:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-07-13 14:34:17.827 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+[INFO ] 2025-07-13 14:34:17.827 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-07-13 14:34:17.830 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2025-07-13 14:34:17.833 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 3' test cases in the current suite                                        
+                            Test Method: 'testPackage.TestClass.navigateToMonecyCollectorAndAssertLandingPageIsLogin'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:17.834 [main] ReportManager - Target URL: "https://money-collector-fe.azurewebsites.net/"
+[INFO ] 2025-07-13 14:34:17.843 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-07-13 14:34:18.257 [main] ReportManager - Navigate to url "https://money-collector-fe.azurewebsites.net/".
+[INFO ] 2025-07-13 14:34:18.290 [main] ReportManager - Assert that the browser title contains "Login".
+[DEBUG] 2025-07-13 14:34:18.297 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:18.412 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:18.529 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:18.642 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:18.760 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:18.875 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:18.990 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:19.106 [main] ReportManager - Expected "Login", and actual "Money-Collector"
+[DEBUG] 2025-07-13 14:34:19.278 [main] ReportManager - Expected "Login", and actual "Login"
+[INFO ] 2025-07-13 14:34:19.512 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_14-34-19-505_13072025'
+[INFO ] 2025-07-13 14:34:19.512 [main] ReportManager - Expected "Login", and actual "Login"
+[INFO ] 2025-07-13 14:34:19.512 [main] ReportManager - Assertion passed
+[INFO ] 2025-07-13 14:34:19.514 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: navigateToMonecyCollectorAndAssertLandingPageIsLogin'
+[INFO ] 2025-07-13 14:34:19.514 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'testPackage.TestClass.navigateToMonecyCollectorAndAssertLandingPageIsLogin'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:19.518 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'testPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2025-07-13 14:34:19.793 [JdkHttpClient-5-0] ReportManager - Jul 13, 2025 2:34:19 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+[WARN ] 2025-07-13 14:34:19.793 [JdkHttpClient-5-0] ReportManager - WARNING: Connection reset
+[WARN ] 2025-07-13 14:34:19.795 [JdkHttpClient-5-0] ReportManager - java.net.SocketException: Connection reset
+[WARN ] 2025-07-13 14:34:19.795 [JdkHttpClient-5-0] ReportManager - 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+[WARN ] 2025-07-13 14:34:19.795 [JdkHttpClient-5-0] ReportManager - 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+[WARN ] 2025-07-13 14:34:19.797 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+[WARN ] 2025-07-13 14:34:19.799 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+[WARN ] 2025-07-13 14:34:19.799 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+[WARN ] 2025-07-13 14:34:19.799 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+[WARN ] 2025-07-13 14:34:19.799 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+[WARN ] 2025-07-13 14:34:19.799 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+[WARN ] 2025-07-13 14:34:19.802 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+[WARN ] 2025-07-13 14:34:19.802 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+[WARN ] 2025-07-13 14:34:19.802 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+[WARN ] 2025-07-13 14:34:19.802 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+[WARN ] 2025-07-13 14:34:19.802 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+[WARN ] 2025-07-13 14:34:19.804 [JdkHttpClient-5-0] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+[WARN ] 2025-07-13 14:34:19.804 [JdkHttpClient-5-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - Jul 13, 2025 2:34:19 PM org.openqa.selenium.remote.http.jdk.JdkHttpClient close
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - WARNING: failed to close the websocket: org.openqa.selenium.remote.http.jdk.JdkHttpClient$4@ee7a538
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - Build info: version: '4.33.0', revision: '2c6aaad03a'
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - Driver info: driver.version: SHAFT$GUI$WebDriver
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:325)
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:344)
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.close(JdkHttpClient.java:520)
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - 	at org.openqa.selenium.bidi.Connection.close(Connection.java:267)
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - 	at org.openqa.selenium.bidi.BiDi.close(BiDi.java:41)
+[WARN ] 2025-07-13 14:34:19.832 [main] ReportManager - 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:425)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:279)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:261)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at com.shaft.driver.SHAFT$GUI$WebDriver.quit(SHAFT.java:53)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at testPackage.TestClass.afterMethod(TestClass.java:58)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+[WARN ] 2025-07-13 14:34:19.834 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+[WARN ] 2025-07-13 14:34:19.836 [main] ReportManager - 	at org.testng.TestRunner.run(TestRunner.java:616)
+[WARN ] 2025-07-13 14:34:19.838 [main] ReportManager - 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+[WARN ] 2025-07-13 14:34:19.838 [main] ReportManager - 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+[WARN ] 2025-07-13 14:34:19.838 [main] ReportManager - 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.testng.TestNG.run(TestNG.java:1079)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - Caused by: java.io.IOException: Output closed
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:290)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:315)
+[WARN ] 2025-07-13 14:34:19.843 [main] ReportManager - 	... 40 more
+[INFO ] 2025-07-13 14:34:19.954 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2025-07-13 14:34:19.958 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2025-07-13 14:34:19.958 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'testPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:19.958 [main] ReportManager - Post processing some properties to support platforms-specific restrictions.
+[INFO ] 2025-07-13 14:34:19.958 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-07-13 14:34:19.966 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-07-13 14:34:19.970 [main] ReportManager - Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-port=51909, --start-maximized], extensions: []}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, webSocketUrl: true}
+[INFO ] 2025-07-13 14:34:19.970 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-07-13 14:34:19.972 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2025-07-13 14:34:21.728 [main] ReportManager - Jul 13, 2025 2:34:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-07-13 14:34:21.728 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+[INFO ] 2025-07-13 14:34:21.728 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-07-13 14:34:21.728 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2025-07-13 14:34:21.735 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 3' test cases in the current suite                                        
+                              Test Method: 'testPackage.TestClass.numberOfAgenciesIsDisplayedCorrectlyInDashboard'                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:21.735 [main] ReportManager - Target URL: "https://money-collector-fe.azurewebsites.net/"
+[INFO ] 2025-07-13 14:34:21.749 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-07-13 14:34:22.100 [main] ReportManager - Navigate to url "https://money-collector-fe.azurewebsites.net/".
+[INFO ] 2025-07-13 14:34:24.624 [main] ReportManager - Type "Email"
+[INFO ] 2025-07-13 14:34:24.782 [main] ReportManager - Type "Password"
+[INFO ] 2025-07-13 14:34:24.797 [main] ReportManager - Assert that the element located by "By.xpath: /html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/p" text contains "9,483".
+[INFO ] 2025-07-13 14:34:26.402 [main] ReportManager - Get  text "By.xpath: /html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/p"
+[DEBUG] 2025-07-13 14:34:26.403 [main] ReportManager - Expected "9,483", and actual ""
+[INFO ] 2025-07-13 14:34:26.583 [main] ReportManager - Get  text "By.xpath: /html/body/app-root/app-layout/div/div/main/app-dashboard/div[1]/div[4]/div[1]/p"
+[DEBUG] 2025-07-13 14:34:26.584 [main] ReportManager - Expected "9,483", and actual "9,483"
+[INFO ] 2025-07-13 14:34:27.030 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_14-34-27-022_13072025'
+[INFO ] 2025-07-13 14:34:27.030 [main] ReportManager - Expected "9,483", and actual "9,483"
+[INFO ] 2025-07-13 14:34:27.030 [main] ReportManager - Assertion passed
+[INFO ] 2025-07-13 14:34:27.032 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: numberOfAgenciesIsDisplayedCorrectlyInDashboard'
+[INFO ] 2025-07-13 14:34:27.032 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                   Finished Execution of Test Method: 'testPackage.TestClass.numberOfAgenciesIsDisplayedCorrectlyInDashboard'                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:27.036 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'testPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - Jul 13, 2025 2:34:27 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - WARNING: Connection reset
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - java.net.SocketException: Connection reset
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+[WARN ] 2025-07-13 14:34:27.146 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+[WARN ] 2025-07-13 14:34:27.148 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+[WARN ] 2025-07-13 14:34:27.148 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+[WARN ] 2025-07-13 14:34:27.148 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+[WARN ] 2025-07-13 14:34:27.148 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+[WARN ] 2025-07-13 14:34:27.148 [JdkHttpClient-8-0] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+[WARN ] 2025-07-13 14:34:27.148 [JdkHttpClient-8-0] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+[INFO ] 2025-07-13 14:34:27.307 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2025-07-13 14:34:27.312 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2025-07-13 14:34:27.316 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-13 14:34:27.322 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

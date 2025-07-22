@@ -1,0 +1,22 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 3' test cases in the current suite                                        
+                            Test Method: 'testPackage.TestClass.navigateToMonecyCollectorAndAssertLandingPageIsLogin'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://money-collector-fe.azurewebsites.net/" @13-07-2025 14:34:17.0834 pm
+[ReportManager] Initial URL: "about:blank" @13-07-2025 14:34:17.0843 pm
+[ReportManager] Navigate to url "https://money-collector-fe.azurewebsites.net/". @13-07-2025 14:34:18.0257 pm
+[ReportManager] Assert that the browser title contains "Login". @13-07-2025 14:34:18.0290 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:18.0297 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:18.0412 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:18.0529 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:18.0642 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:18.0760 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:18.0875 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:18.0990 pm
+[ReportManager] Expected "Login", and actual "Money-Collector" @13-07-2025 14:34:19.0106 pm
+[ReportManager] Expected "Login", and actual "Login" @13-07-2025 14:34:19.0278 pm
+[ReportManager] Successfully created attachment 'Screenshot - Assert_14-34-19-505_13072025' @13-07-2025 14:34:19.0510 pm
+[ReportManager] Expected "Login", and actual "Login" @13-07-2025 14:34:19.0512 pm
+[ReportManager] Assertion passed @13-07-2025 14:34:19.0512 pm
